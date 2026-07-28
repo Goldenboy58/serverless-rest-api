@@ -58,3 +58,6 @@ dynamodb = boto3.resource('dynamodb', endpoint_url=f'http://{localstack_host}:45
 
 ## CI/CD
 Jenkins pipeline (Jenkinsfile) runs on every push: syntax check, module load test, and packaging.
+## Screenshots
+
+![API response in browser](screenshots/api-response.png)
